@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.App{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.page__wrapper{
+    margin-top: 30px;
+    display: flex;
+}
+
+.page{
+    padding: 10px;
+    border: 1px solid teal;
+    cursor: pointer;
+}
+
+.page_active{
+    border: 2px solid orange;
+    font-weight: bold;
+}
+
+.navbar{
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background-color: lightgrey;
+}
+
+.navbar__items{
+    margin-left: auto;
+}
